@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Detection Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Diabetic Retinopathy Detection</h1>
+    </header>
+    <section id="severitySection">
+        <h2>Severity of Diabetic Retinopathy</h2>
+        <ul>
+            <li>No Effect</li>
+            <li>Mild</li>
+            <li>Moderate</li>
+            <li>Severe</li>
+            <li>Proliferate</li>
+        </ul>
+    </section>
+    <main>
+        <section>
+            <h2>Upload an Image</h2>
+            <input type="file" id="imageUpload" accept="image/*">
+            <button onclick="detectImage()">Detect</button>
+        </section>
+        <section id="resultSection">
+            <h2>Severity Level of Patient</h2>
+            <div id="imageContainer">
+                <img id="uploadedImage" src="#" alt="Uploaded Image">
+            </div>
+            <div id="resultText"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

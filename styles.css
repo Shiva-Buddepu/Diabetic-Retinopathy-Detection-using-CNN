@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lato', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('eyeb.jpg');
+    background-size: cover;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+    font-family: 'Verdana', sans-serif; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#resultSection {
+    display: none;
+}
+
+#imageContainer {
+    text-align: center;
+}
+
+#uploadedImage {
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
